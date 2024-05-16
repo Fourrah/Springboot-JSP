@@ -1,0 +1,60 @@
+/* detail.css */
+
+/* Style for the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Style for the table */
+table {
+    width: 60%;
+    max-width: 600px;
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for table headers */
+th {
+    background-color: #f2f2f2;
+    padding: 12px;
+    text-align: left;
+}
+
+/* Style for table data cells */
+td {
+    padding: 12px;
+    text-align: left;
+}
+
+/* Hover effect for table rows */
+tr:hover {
+    background-color: #f9f9f9;
+}
+
+/* Style for the button container */
+.button-container {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+/* Style for the buttons */
+button {
+    background-color: #BF94E4;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #481658;
+}
